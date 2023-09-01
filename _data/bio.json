@@ -11,21 +11,20 @@
     "profiles": [
       { "network": "github", "username": "aris-carlos", "url": "http://github.com/aris-carlos" },
       { "network": "linkedin", "username": "aris-carlos", "url": "http://linkedin.com/in/aris-carlos" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "twitter", "username": "mollymal", "url": "https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" }
     ]
   },
   "interests": [
-    { "name": "Offensive Security/Hacking" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Cybersecurity" },
+    { "name": "Networking" },
+    { "name": "Ethical Hacking" },
+    { "name": "Baking" },
+    { "name": "Cooking" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
+      "keywords": [ "C", "C++", "Java", "JavaScript", "Python", "Bash" ]
     },
     {
       "name": "Toolsets/OS",
@@ -40,28 +39,40 @@
       "startDate": "2022-08-22",
       "endDate": "Present",
       "courses": [
+        "ICS 141", "ICS 211", "ICS 212", "ICS 241", "ICS 311", "ICS 314"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "University of Hawai'i at Manoa",
+      "position": "Software Engineer for Cybersecurity Grant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2023-07-16",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Team member working in the AI and Automation Team",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Research and develop approaches to automating the classification of CVEs using AI/ML methods"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
+      "company": "Adapt Forward Cybersecurity",
+      "position": "Cybersecurity Intern",
+      "website": "",
+      "startDate": "2023-01-01",
       "endDate": "2016-03-15",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues over the phone",
+        "Answer phone and email responses to the ITS Help Desk"
+      ]
+    },
+    {
+      "company": "U.S. Department of Defense",
+      "position": "Junior Language Analyst",
+      "website": "",
+      "startDate": "2021-08-04",
+      "endDate": "2022-07-15",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
