@@ -4,20 +4,19 @@
     "label": "Student",
     "picture": "https://github.com/aris-carlos.png",
     "email": "atcarlos@hawaii.edu",
-    "phone": "808-555-5555",
+    "phone": "",
     "website": "https://aris-carlos.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2025.",
-    "location": { "address": "", "postalCode": "96818", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "aris-carlos", "url": "http://github.com/aris-carlos" },
-      { "network": "linkedin", "username": "aris-carlos", "url": "http://linkedin.com/in/aris-carlos" },
-      { "network": "twitter", "username": "mollymal", "url": "https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran" }
+      { "network": "linkedin", "username": "aris-carlos", "url": "http://linkedin.com/in/aris-carlos" }
     ]
   },
   "interests": [
     { "name": "Cybersecurity" },
     { "name": "Networking" },
-    { "name": "Ethical Hacking" },
+    { "name": "Penetration Testing" },
     { "name": "Baking" },
     { "name": "Cooking" }
   ],
@@ -61,10 +60,10 @@
       "website": "",
       "startDate": "2023-01-01",
       "endDate": "2016-03-15",
-      "summary": "",
+      "summary": "Intern performing research for the Naval Information Warfare Center",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Performed research on Quantum Key Distribution (publication still pending)",
+        "Presented findings to the local members of the U.S. Congress"
       ]
     },
     {
@@ -73,52 +72,72 @@
       "website": "",
       "startDate": "2021-08-04",
       "endDate": "2022-07-15",
-      "summary": "",
+      "summary": "Intern supporting various DoD missions",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Provided critical technical translations to be further analyzed and disseminated",
+        "Analyzed foreign language materials with colleagues to engage different perspectives on key information"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "AFA CyberPatriot",
+      "website": "",
+      "position": "Technical Mentor",
+      "startDate": "2022-12-01",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "summary": "Mentor assisting students in the CyberPatriot program at Moanalua High School",
+      "highlights": []
     },
     {
-      "organization": "",
+      "organization": "Grey Hats at UH Manoa",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
+      "position": "Board Member",
+      "startDate": "2022-11-01",
+      "endDate": "2023-07-31",
+      "summary": "Student leader contributing to the growth of Cybersecurity Education at UH Manoa",
+      "highlights": []
+    },
+    {
+      "organization": "Association for Computing Machinery at UH Manoa (ACManoa)",
+      "website": "",
+      "position": "Assistant Communications Officer",
+      "startDate": "2022-10-01",
+      "endDate": "2023-06-30",
+      "summary": "Student leader assisting in Discord communications and various event planning",
+      "highlights": []
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Manoa Academic Merit Scholarship",
+      "date": "2022-Present",
+      "awarder": "University of Hawai'i at Manoa",
+      "summary": "Scholarship is an automatic $2,000-$4,000 scholarship per year for four years of undergraduate study for first-time degree-seeking students. Students must have a 3.8 GPA upon the time of application to UH Mānoa."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Certificate of Recognition for Promotion and Support",
+      "date": "2023",
+      "awarder": "UH Manoa Information and Computer Sciences Department",
+      "summary": "Awarded for exceptional service in promoting and supporting the growth of the Information and Computer Sciences Department"
+    },
+    {
+      "title": "Gold",
+      "date": "2022",
+      "awarder": "Family, Career and Community Leaders of America (FCCLA)",
+      "summary": "Awarded Gold for 'Students Taking Action with Recognition (STAR)' Event, Food Innovations category at the 2022 National Leadership Conference in San Diego"
+    },
+    {
+      "title": "Second Place",
+      "date": "2022",
+      "awarder": "ISC2 Hawai'i Chapter and Validity Hawai'i",
+      "summary": "Awarded for second place standing on the leaderboards in the 2022 CyberPatriot Invitational Capture-the-Flag (CTF) event"
+    },
+    {
+      "title": "Valedictorian",
+      "date": "2022",
+      "awarder": "Hawai'i Department of Education and Moanalua High School",
+      "summary": "Awarded for graduating with a cumulative GPA of 4.0+ and the completion of the Career and Technical Education honors"
     }
   ],
   "references": [
