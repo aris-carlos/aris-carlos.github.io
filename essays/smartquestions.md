@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Work Smart, Not Hard: Questions Edition"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2023-09-08
 published: true
 labels:
   - Engineering
@@ -11,25 +11,17 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+## The Learning Process
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+In the process of getting better at something, one needs to learn the material that pertains to their subject. Whether they are learning the jargon, the rules, the processes, or any knowledge needed to perform a job, carry out a hobby, or anything they want to do, the process of getting better and more knowledgeable comes down to learning. Regardless of whether the new knowledge comes directly or indirectly, everyday is a learning opportunity. However, sometimes people will stumble across a struggle in their learning. The great thing is that there are other resources out there to sustain the struggle. One of these great resources are other people; people who have been through the learning process that others are currently going through. To learn from others, you’d need to ask questions: a way of communicating a problem to hopefully receive a solution in return. However, even people as resources can be depleted too, and many of those times, it comes down to the questions they receive. So what might be the best way to maximize your learning from questions? Asking <b>smart</b> questions.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+## A Good Answer Or Just An Answer
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+Any question can be asked, but at the same time, any answer can be provided (even an answer of just nothingness). This isn’t just some form of randomness or luck that will determine what type of answer you will get, but rather it will all come down to the type of question you ask. Many experts in the various communities that exist, particularly the tech community, get flooded with questions from others trying to get answers to fill in knowledge gaps or overcome struggles in their learning. At the end of the day though, many of those who bear the answers are getting frustrated. In general, it's good to ask questions, but the type of question that is asked will make the difference between learning something versus indirectly frustrating someone. It all comes down to the level of effort demonstrated in trying to solve the problem at hand before asking others. Many get annoyed by those who want the simple way out despite all the various resources out there that can give them an answer. However, if effort was demonstrated that you tried to figure things out on your own before seeking help, then you may get the more rewarding answer that will put everything together.
 
-Here's what I think: the difficult things will always be difficult.
 
-## In the context of programming
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
+## Seriously, Just Don’t
 
 Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
 
