@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="1000px" class="rounded float-start pe-4" src="https://nesslabs.com/wp-content/uploads/2019/09/good-questions-illustration.png">
 
 ## The Learning Process
 
