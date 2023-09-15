@@ -6,7 +6,7 @@ title: "Work Smart, Not Hard: Questions Edition"
 date: 2023-09-08
 published: true
 labels:
-  - Engineering
+  - Learning
 ---
 
 <img width="1296px" class="rounded float-start pe-4" src="https://nesslabs.com/wp-content/uploads/2019/09/good-questions-illustration.png">
