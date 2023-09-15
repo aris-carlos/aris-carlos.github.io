@@ -1,99 +1,50 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Work Smart, Not Hard: Questions Edition"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2023-09-08
+published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="1296px" class="rounded float-start pe-4" src="https://nesslabs.com/wp-content/uploads/2019/09/good-questions-illustration.png">
 
-## Is there such thing as a stupid question?
+## The Learning Process
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+In the process of getting better at something, one needs to learn the material that pertains to the subject. Whether they are learning the jargon, the rules, the processes, or any knowledge needed to perform a job, carry out a hobby, or do anything they want to do, the process of getting better and more knowledgeable comes down to learning. Whether the new knowledge comes directly or indirectly, every day is a learning opportunity. However, sometimes people will stumble across a struggle in their learning. The great thing is that there are other resources out there to sustain the struggle. One of these great resources is other people; people who have been through the learning process that others are currently going through. To learn from others, you’d need to ask questions: a way of communicating a problem to hopefully receive a solution in return. However, even people as resources can be depleted too, and many of those times, it comes down to the questions they receive. So what might be the best way to maximize your learning from questions? Asking <b>smart</b> questions.
 
-## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+## A Good Answer Or Just An Answer
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+Any question can be asked, but at the same time, any answer can be provided (even an answer of just nothingness). This isn’t just some form of randomness or luck that will determine what type of answer you will get, rather it will all come down to the type of question you ask. Many experts in the various communities that exist, particularly the tech community, get flooded with questions from others trying to get answers to fill in knowledge gaps or overcome struggles in their learning. At the end of the day though, many of those who bear the answers are getting frustrated. In general, it's good to ask questions, but the type of question that is asked will make the difference between learning something versus indirectly frustrating someone. It all comes down to the level of effort demonstrated in trying to solve the problem at hand before asking others. Many get annoyed by those who want the simple way out despite all the various resources that can give them an answer. However, if effort was demonstrated that you tried to figure things out on your own before seeking help, then you may get the more rewarding answer that will put everything together.
 
-```
-Q: python date of the previous month
+As one who is embarking on the journey of pursuing computer science, it's important to ask smart questions because it all ties back to the learning process we all undergo. One big takeaway in asking smart questions comes down to the effort that is put in beforehand. Being in the computer science field, much of my learning is meant to come from my actions, not from being spoon-fed to me. This means that to improve my programming skills, I need to code more. If I want to learn how software and projects work in the industry, then I should build something. As someone fortunate enough to have many resources available for my learning, I shouldn't have excuses to put in the effort to overcome any struggles in my learning. However, not all instances of finding my solution on my own will work out successfully. However, the effort of trying to figure out the problem on my own beforehand is still present, as it will at least help put me on the same page as the others with whom I am seeking help. Through research and self-troubleshooting, this effort can help me to form a question where I can get down to the specifics of what my issue is, the resources I referred to, and the solutions I tried for me to receive a more pinpoint solution that will not only solve my problem but also give me something to learn from and carry on with me.
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+## Seriously, Just Don’t
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+One example of not being smart when it comes to seeking help through questions is by straight up just asking for an answer/solution without putting any effort into finding the answer on your own. Some questions can be answered easily by just referring to other available resources, such as documentation and manuals, forums, FAQ sections, etc. In the case of this example, none of that was demonstrated. 
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+On [Stack Overflow](https://stackoverflow.com/questions/2727922/in-c-printf-returns-what), the question asked is as follows:
 
-I have solved this trouble in bash with:
+    “in c printf() returns what?” 
 
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+The question received perhaps the most sarcastic yet judgmental responses. The responses did provide pointers into how that individual could have found their answer, but it was all surrounded by the implicit message of, “Really? Well, you could have done better. Here’s how.” The question was very effortless: the level of detail was at the absolute minimum, and no effort was demonstrated to showcase that a solution was being sought before reaching out to the community of experts. This ends up taking up space on a forum page and wasting valuable time and resources from experts. In the end, though, this question post does serve as a valuable lesson to all answer-seekers out there, and that is to do your research to find your answers before asking a question, as a desired solution can sometimes be found right in front of you with all the resources available nowadays.
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+It's difficult to tell what is being asked here.
+This question is ambiguous, vague, incomplete, overly broad, or rhetorical and cannot be reasonably answered in its current form.
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+Though, this question post does serve as a valuable lesson to all answer-seekers out there, and that is to do your research to find your answers before asking a question, as a desired solution can sometimes be found right in front of you with all the resources available nowadays.
 
-## Conclusion
+## Let's Get To the Specifics
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+One example of being smart in asking questions is by first trying to answer your question. In this post on [Stack Overflow](https://stackoverflow.com/questions/36414709/php-include-trouble), an individual is working on their approach to including files as part of building up their web page. The individual committed two weeks (that’s a long time) to find what solution would work best for them, which then came down to using PHP over Server Side Includes. Unfortunately, they didn’t have luck in getting things to work with their approach. Through some trial and error with working through alternative solutions, they finally landed on one that worked… at least, only on their end. With that, the individual finally turned to Stack Overflow to present their problem and request for help.
+
+With a good question, comes a good answer. The individual was assisted with a thorough answer that was broken down step by step with code snippets to help the individual resolve their problem. Aside from the answer provided, other individuals also attempted to jump in to assist, with some requesting more information to investigate while others provided their input to help resolve the issue.
+
+## Learn The Smart Way
+
+Smart questions from what I uncovered are presented to be effective methods of maximizing my learning as someone who has a lot to explore and uncover in the world of software engineering. They encourage me to do research and trials for me to obtain a knowledgeable background to help describe my problem for other experts to assist with. This can create more specific and complex challenges to tackle which in turn can be both a great and effective learning experience not only for myself but also for those who pitch in to help out.
