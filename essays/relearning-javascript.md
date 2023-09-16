@@ -9,8 +9,6 @@ labels:
   - JavaScript
 ---
 
-<img width="1296px" class="rounded float-start pe-4" src="https://www.thoughtco.com/thmb/094YF3bQBiuV_13n92GFQZWkM7k=/ 1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg">
-
 *It’s All Coming Back to Me…*
 
 JavaScript was perhaps the first programming language I ever learned in my life. In my junior year of high school, I got my first experience in learning the language and applying it to small projects to witness the power and the beauty of lines of code in a file. 
