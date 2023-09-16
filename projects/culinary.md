@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../img/culinary/pumpkinpasta.jpeg
+image: ../img/culinary/pumpkinpastasquare.jpeg
 title: "Mahi'ai Culinary Competition"
 date: 2021
 published: true

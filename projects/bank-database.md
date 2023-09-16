@@ -23,3 +23,5 @@ For the front end, a simple command line user interface was created to allow the
 </ol>
 
 From this project, I gained somewhat of a bird's eye view of what programs similar to this project might look like in the real world. Beyond the learning of C++ syntax, classes, and pointers, I've picked up on concepts to keep in mind to make programs "better," such as information hiding and proper memory management.
+
+Source Code on [GitHub](https://github.com/aris-carlos/bank-database)]
