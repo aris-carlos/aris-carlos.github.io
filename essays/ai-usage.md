@@ -19,7 +19,11 @@ Can you imagine that a lot of questions nowadays can be answered simply by just 
 
 ## Personal Experience with AI
 
+It's hard to merely acknowledge the existence of this groundbreaking technology; I have to give a shot myself! As a student, I've witnessed the power of AI in what it can do for me compared to other various resources I've used in the past. AI provided me explanations, step-by-step breakdowns, and guidance on approaching problems in my other subjects whether they are writing problems or computational problems.
 
+Besides using AI on my other subjects, AI usage has mostly been a great learning assistant tool for me in my journey of learning software engineering. With the various things I've done so far in both my learning and coursework, I've used AI in some of them and found some results to be rewarding while others not so useful.
+
+In one of the experiences that I've done: the "Your Choice in React" experience, the goal was to recreate a webpage using React. For my selection, I wanted to recreate the Betty's Burgers website in react. The process went fairly smooth, but then I got stuck on implementing one part, which was creating some gradient element to darken the background image. Using ChatGPT, I asked
 
 ## Impact on Learning and Understanding
 
