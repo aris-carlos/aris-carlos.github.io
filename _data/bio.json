@@ -1,0 +1,148 @@
+{
+  "basics": {
+    "name": "Aris Carlos",
+    "label": "Student",
+    "picture": "https://github.com/aris-carlos.png",
+    "email": "atcarlos@hawaii.edu",
+    "phone": "",
+    "website": "https://aris-carlos.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2025. Following graduation, I'm looking to work in a position in the cybersecurity field.",
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "aris-carlos", "url": "http://github.com/aris-carlos" },
+      { "network": "linkedin", "username": "aris-carlos", "url": "http://linkedin.com/in/aris-carlos" }
+    ]
+  },
+  "interests": [
+    { "name": "Cybersecurity" },
+    { "name": "Networking" },
+    { "name": "Penetration Testing" },
+    { "name": "Baking" },
+    { "name": "Cooking" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "JavaScript", "Python", "Bash" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "UNIX Command Line", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Fall, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2022-08-22",
+      "endDate": "Present",
+      "courses": [
+        "ICS 141", "ICS 211", "ICS 212", "ICS 241", "ICS 311", "ICS 314"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawai'i at Manoa",
+      "position": "Software Engineer for Cybersecurity Grant",
+      "website": "",
+      "startDate": "2023-07-16",
+      "endDate": "Present",
+      "summary": "Team member working in the AI and Automation Team",
+      "highlights": [
+        "Research and develop approaches to automating the classification of CVEs using AI/ML methods"
+      ]
+    },
+    {
+      "company": "Adapt Forward Cybersecurity",
+      "position": "Cybersecurity Intern",
+      "website": "",
+      "startDate": "2023-01-01",
+      "endDate": "2016-03-15",
+      "summary": "Intern performing research for the Naval Information Warfare Center",
+      "highlights": [
+        "Performed research on Quantum Key Distribution (publication still pending)",
+        "Presented findings to the local members of the U.S. Congress"
+      ]
+    },
+    {
+      "company": "U.S. Department of Defense",
+      "position": "Junior Language Analyst",
+      "website": "",
+      "startDate": "2021-08-04",
+      "endDate": "2022-07-15",
+      "summary": "Intern supporting various DoD missions",
+      "highlights": [
+        "Provided critical technical translations to be further analyzed and disseminated",
+        "Analyzed foreign language materials with colleagues to engage different perspectives on key information"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "AFA CyberPatriot",
+      "website": "",
+      "position": "Technical Mentor",
+      "startDate": "2022-12-01",
+      "endDate": "Present",
+      "summary": "Mentor assisting students in the CyberPatriot program at Moanalua High School",
+      "highlights": []
+    },
+    {
+      "organization": "Grey Hats at UH Manoa",
+      "website": "",
+      "position": "Board Member",
+      "startDate": "2022-11-01",
+      "endDate": "2023-07-31",
+      "summary": "Student leader contributing to the growth of Cybersecurity Education at UH Manoa",
+      "highlights": []
+    },
+    {
+      "organization": "Association for Computing Machinery at UH Manoa (ACManoa)",
+      "website": "",
+      "position": "Assistant Communications Officer",
+      "startDate": "2022-10-01",
+      "endDate": "2023-06-30",
+      "summary": "Student leader assisting in Discord communications and various event planning",
+      "highlights": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Manoa Academic Merit Scholarship",
+      "date": "2022-Present",
+      "awarder": "University of Hawai'i at Manoa",
+      "summary": "Scholarship is an automatic $2,000-$4,000 scholarship per year for four years of undergraduate study for first-time degree-seeking students. Students must have a 3.8 GPA upon the time of application to UH Mānoa."
+    },
+    {
+      "title": "Certificate of Recognition for Promotion and Support",
+      "date": "2023",
+      "awarder": "UH Manoa Information and Computer Sciences Department",
+      "summary": "Awarded for exceptional service in promoting and supporting the growth of the Information and Computer Sciences Department"
+    },
+    {
+      "title": "Gold",
+      "date": "2022",
+      "awarder": "Family, Career and Community Leaders of America (FCCLA)",
+      "summary": "Awarded Gold for 'Students Taking Action with Recognition (STAR)' Event, Food Innovations category at the 2022 National Leadership Conference in San Diego"
+    },
+    {
+      "title": "Second Place",
+      "date": "2022",
+      "awarder": "ISC2 Hawai'i Chapter and Validity Hawai'i",
+      "summary": "Awarded for second place standing on the leaderboards in the 2022 CyberPatriot Invitational Capture-the-Flag (CTF) event"
+    },
+    {
+      "title": "Valedictorian",
+      "date": "2022",
+      "awarder": "Hawai'i Department of Education and Moanalua High School",
+      "summary": "Awarded for graduating with a cumulative GPA of 4.0+ and the completion of the Career and Technical Education honors"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

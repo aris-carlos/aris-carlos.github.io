@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Elevating Excellence Beyond the Syntax | Aris Carlos | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/aris-carlos.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aris Carlos | Professional Portfolio">
+    <meta property="og:url" content="https://aris-carlos.github.io/essays/coding-standards.html">
+    <meta property="og:title" content="Elevating Excellence Beyond the Syntax | Aris Carlos | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/aris-carlos.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Elevating Excellence Beyond the Syntax | Aris Carlos | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Aris Carlos</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Elevating Excellence Beyond the Syntax</h1>
+  <span class="date">22 Sep 2023</span>
+  <hr>
+  <p><img width="1296px" class="rounded float-start pe-4" src="../img/coding-standards/green-checkmark.png" /></p>
+
+<h2 id="my-own-standards">My Own Standards</h2>
+
+<p>I was never really formally introduced to coding standards until my second semester when I took ICS 212, Program Structure. Yet, that concept was something that was instilled in me without even realizing it until I got more in depth into it. When I first began coding back in my junior year of high school, I always made sure that I used proper indentation to clearly delineate code nested inside of function headers or loops. Overtime, I began adding spaces in between the words and symbols of if statements and between elements inside of a collection.</p>
+
+<p>I did all of that because I wanted my code to look “pretty,” or at least presentable in a fashion that demonstrates I care about the looks of  my code. In the back of my mind though, I still knew for the most part that even if I didn’t necessarily make my code “pretty” by adding all of the spaces between things or sometimes not indenting things or putting things on a new line, it would still compile and run.</p>
+
+<h2 id="standards-that-fit-for-all">Standards That Fit For All</h2>
+
+<p>However, when I was finally introduced to the concept formally, at first I thought that it wouldn’t be too bad to follow as it, in a sense, “enforces” that code would look nice and presentable. That was until I learned that coding standards also enforce such trivial things such as the maximum number of characters that can be in one line, and also whether to put curly braces on the same line as a function header or if statement, or on a new line. All of which I lost partial points for as I got more in depth into my ICS 212 assignments. I was frustrated at first knowing that I had to conform to trivial standards that go beyond what I was used to with just making my code look organized, until silly me learned that there was a program that existed that could have checked for those coding style errors.</p>
+
+<p>Coding standards aren’t there to make code “picture-perfect,” but from what I learned, it’s there to maintain consistency within the code. Programs aren’t just written, compiled, and run only on one’s local machine (which is something that high school me wasn’t used to), but they’re actually developed and deployed across many different environments. Not everyone will have hardware and software that is the exact same as one individual’s setup. Some won’t have IDEs available at their disposal and perhaps only the terminal to edit programs. Some won’t have large high resolution screens to view the longest lines of code. Coding standards mitigate the problems that arise from differences in hardware and software that every developer has. It ensures consistency so that code can be reviewed and fixed properly and efficiently regardless of the environment without any additional hassles.</p>
+
+<h2 id="supplmental-learning-through-active-checking">Supplmental Learning Through Active Checking</h2>
+
+<p>Many of the style issues that I had to work out were only learned about after running a separate linting program before compiling my program. But, with writing JavaScript for this Software Engineering course, ESLint was a tool introduced to ensure consistency in my code while working from my own local environment. ESLint would actively check for any programming or style errors while I was in my IDE writing my code. For the most part, getting that green checkmark in the top right corner was always a rewarding sight after finishing up my program, as I understood that ESLint is just an additional aide to ensure that the code I write is neat and organized, and efficient where all variables declared are used and functions that I created are called.</p>
+
+<p>It’s not always the case where I get that green checkmark though, as I do tend to face difficulty with using some of the syntax that ES6 has introduced. However, the use of ESLint has aided me in following that ES6 syntax which helped me to get more comfortable with its usage while also simplifying my code both lengthwise and organization wise. For instance, utilizing function syntax from before versus with ES6:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function sum(nums) {
+  return _.reduce(nums, function(memo, num) { return memo + num; }, 0);
+}
+</code></pre></div></div>
+
+<p>Using ES6 syntax</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function sum(nums) {
+  return _.reduce(nums, (memo, num) =&gt; memo + num, 0);
+}
+</code></pre></div></div>
+
+<p>With coding standards, not only will I improve the consistency in my written code, but it will also help me in the long run as many coding projects will involve working with others in various development and testing environments.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

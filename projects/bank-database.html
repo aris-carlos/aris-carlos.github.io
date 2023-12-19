@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bank Database | Aris Carlos | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/aris-carlos.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aris Carlos | Professional Portfolio">
+    <meta property="og:url" content="https://aris-carlos.github.io/projects/bank-database.html">
+    <meta property="og:title" content="Bank Database | Aris Carlos | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/aris-carlos.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bank Database | Aris Carlos | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Aris Carlos</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bank Database</h1>
+ <p><img class="img-fluid" src="../img/bank-database/bank-database.png" /></p>
+
+<p>For a previous course I’ve taken, ICS 212 - Program Structure, the class was given a project to implement a database for a bank. The goal of this was to create and simulate a database program from both the user interface side and the database side. Using everything that was taught about classes, pointers, memory allocation, data structures, and traversing them in C++, this project would essentially tie all of that together to mirror a real world application where many interactive databases are used.</p>
+
+<p>For the front end, a simple command line user interface was created to allow the user to interact with the program by providing values for selecting options, and passing in data that will be stored in the records in the database. As for the back end, a linked list data structure was used to store all the records. Each record stores an account number, name of the customer, address of the customer, and a pointer to the next record. The records would be sorted by their account number in ascending order. The program supported the following operations on the records:</p>
+<ol>
+    <li>Add a record</li>
+    <li>Find a record</li>
+    <li>Print all records</li>
+    <li>Delete a record</li>
+</ol>
+
+<p>From this project, I gained somewhat of a bird’s eye view of what programs similar to this project might look like in the real world. Beyond the learning of C++ syntax, classes, and pointers, I’ve picked up on concepts to keep in mind to make programs “better,” such as information hiding and proper memory management.</p>
+
+<p>Source Code on <a href="https://github.com/aris-carlos/bank-database">GitHub</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

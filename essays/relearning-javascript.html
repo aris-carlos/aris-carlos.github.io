@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="JavaScript: Humble Beginnings v2.0 | Aris Carlos | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/aris-carlos.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aris Carlos | Professional Portfolio">
+    <meta property="og:url" content="https://aris-carlos.github.io/essays/relearning-javascript.html">
+    <meta property="og:title" content="JavaScript: Humble Beginnings v2.0 | Aris Carlos | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/aris-carlos.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>JavaScript: Humble Beginnings v2.0 | Aris Carlos | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Aris Carlos</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">JavaScript: Humble Beginnings v2.0</h1>
+  <span class="date">24 Aug 2023</span>
+  <hr>
+  <p><em>It’s All Coming Back to Me…</em></p>
+
+<p>JavaScript was perhaps the first programming language I ever learned in my life. In my junior year of high school, I got my first experience in learning the language and applying it to small projects to witness the power and the beauty of lines of code in a file.</p>
+
+<p>Three years later, unfortunately the knowledge from my humble beginnings didn’t stick around. However, as I’m here today in ramping up my journey as a prospective software engineer, the past is here to visit. My job: to hopefully make it stay as I revisit the JavaScript programming language in my software engineering course.</p>
+
+<h2 id="an-eye-opening-path-to-greatness">An Eye-opening Path to Greatness</h2>
+
+<p>With the ball rolling for my first week, my first coding task: learn JavaScript. Despite me learning the language in the past, I’ve forgotten a lot about it. Not to mention the introduction of ES6, which from what I understand is the newest “version” of JavaScript. I had no idea JavaScript even had “versions.” Getting into the coding bootcamp to learn JavaScript, I was already introduced to new syntax that was never covered in my previous learning, such as the let and const keywords used in declaring variables. Aside from the basic syntax which was very easy to get comfortable with due to prior knowledge, picking up the new concepts came in pretty swiftly. For instance, I figured that the const keyword in JavaScript would be similar or if not, almost the same, as the usage of the const keyword in C and C++. The majority of the fundamental relearning went smooth and seemed quite similar to things found in Java and Python.</p>
+
+<p>Despite some comfort in the basics of JavaScript, the new concepts, primarily from ES6, laid out a new playing field for me. It took me some time to grasp the new syntax introduced. A lot of the new material was meant to provide much more flexibility in using the language for certain things, such as working with arrays and conveniently obtaining the values from JavaScript Objects. I’ve witnessed, as my former colleagues used to say, “Python magic,” before, but I’ve never seen great flexibility built into the syntax of a language like JavaScript. Prior to this, I’ve mainly been working with C and C++ which had very little flexibility in working with objects and arrays, making the switch to a language like JavaScript a bit uneasy. Despite that though, I’ve come to see the greatness of JavaScript given how flexible it is and how much it can accomplish. As a prospective software engineer, I think it’s a great language to have under one’s toolbelt especially with how heavily it is used in web page applications and working with APIs on the server side.</p>
+
+<h2 id="lets-get-physical-with-code">Let’s Get Physical! (with code)</h2>
+
+<p>After getting situated with JavaScript, it was time to put it to the test with the course’s athletic software engineering exercises commonly referred to as WODs (or the Workout of the Day). The practice WODs that I’ve gone through so far were quite helpful. Not only did I get a good sense of what I can expect for the real thing, but these practice WODs ensured that my learning continued even past the coding bootcamp. Despite the timed factor of these exercises which can be stressful sometimes especially when things don’t go smoothly, learning through doing WODs is benefitting me a lot. One thing that I hold in the back of my mind is that I tend to think that there is always a better way to do something. I know that despite how much I’ve learned about the fancy syntax, objects, or functions I can employ in my code to carry out tasks, my application of it isn’t quite caught up. By doing the WODs, I can put my ability to the test and create my own solution, which is at least for now, something that will work to accomplish the task at hand. Afterwards, I can view other solutions, all of which had different approaches in tackling the problem. Going through these other solutions, I picked up a lot of things that I can apply in the future such as ways to structure my code to help keep things organized and ways to help improve the efficiency of my code. One example would be one of the practice WODs I previously completed.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function isUnique(str) {
+	const charArr = [];
+  for (let idx = 0; idx &lt; str.length; idx++) {
+  	if (charArr.includes(str[idx])) {
+    	return false;
+    } else {
+    	charArr.push(str[idx]);
+    }
+  }
+  return true;
+}
+</code></pre></div></div>
+
+<p>While my solution did work, it could have been made better. After viewing other solutions, a way that I’ve picked out that would make this more efficient would be to use a JavaScript Object to “map” the values in a string to check for repeat characters rather than the use of the .includes() method, as that method is essentially performing a linear search while nested inside another for loop in my solution, leading to a worst case runtime of O(n<sup>2</sup>).</p>
+
+<h2 id="the-path-forward">The Path Forward</h2>
+
+<p>Revisiting my humble beginnings surely was an enjoyable learning experience for me. With the combined practice of WODs and the learning of new concepts from ES6, I feel confident about being able to showcase this programming language under my toolbelt and apply it to future exercises and projects.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
